@@ -1,0 +1,28 @@
+.child1{
+    width:60px;
+}
+.parent2{
+    display:flex;
+    background-color: palevioletred;
+    gap:20px;
+    
+    
+    
+   
+}
+.card{
+    border-radius: 5px; /* Adjust the value to control the roundness */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for effect */
+    padding: 20px;
+    background-color: white;
+     /* Increase the width (adjust as needed) */
+    height: 30rem; /* Increase the height (adjust as needed) */
+    
+}
+.child_explore{
+    display: flex;
+}
+.parent_explore{
+    display:flex;
+    gap:20px;
+}
