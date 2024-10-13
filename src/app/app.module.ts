@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { FruitsveggiComponent } from './fruitsveggi/fruitsveggi.component';
 import { PoojaessentialComponent } from './poojaessential/poojaessential.component';
 import { PoojaItemsComponent } from './pooja-items/pooja-items.component';
+import { DiyadhoopComponent } from './diyadhoop/diyadhoop.component';
+import { FlowerComponent } from './flower/flower.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PoojaItemsComponent } from './pooja-items/pooja-items.component';
     HomeComponent,
     FruitsveggiComponent,
     PoojaessentialComponent,
-    PoojaItemsComponent
+    PoojaItemsComponent,
+    DiyadhoopComponent,
+    FlowerComponent
   ],
   imports: [
     BrowserModule,
