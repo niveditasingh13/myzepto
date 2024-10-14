@@ -16,7 +16,7 @@
     padding: 20px;
     background-color: white;
      /* Increase the width (adjust as needed) */
-    height: 30rem; /* Increase the height (adjust as needed) */
+    height: 25rem; /* Increase the height (adjust as needed) */
     
 }
 .child_explore{
@@ -25,4 +25,7 @@
 .parent_explore{
     display:flex;
     gap:20px;
+}
+.p-4{
+    display:flex;
 }

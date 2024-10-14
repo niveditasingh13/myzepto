@@ -1,12 +1,17 @@
+<head> <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet"></head>
 <nav class="navbar navbar-dark">
   <div class="parent">
   <a routerLink="/home"><img class="img" src="../assets/primary-logo.svg"></a>
-  <span class="del-css">Delivery in 20 mins</span>
+  <a routerLink="/login"><img class="img1" src="../assets/poojaimage/login1.jfif" ></a>
+  <i class="fa badge fa-lg" value=8 style="position: absolute; left :90%; top: 18px;">&#xf07a;</i>
+  <span class="del-css">Delivery in 10 mins,<br></span>
+  
   <form class="form-inline">
+    
     <input class="inp form-control mr-sm-2" type="search" placeholder="Search for products" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>   
   </form>
-  <button class="btn-logo" aria-label="login" type="button"></button>
+  
 </div>
 </nav>
 <router-outlet></router-outlet>

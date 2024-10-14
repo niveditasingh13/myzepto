@@ -14,8 +14,21 @@
 
 }
 
+.badge:after {
+    content: attr(value);
+    font-size: 12px;
+    color: #fff;
+    background: red;
+    border-radius: 50%;
+    padding: 0 5px;
+    position: relative;
+    left: -8px;
+    top: -10px;
+    opacity: 0.9;
+}
+
 .inp {
-    top: 11%;
+    top: 18%;
     right: 280px;
     width: 400px;
     height: 40px;
@@ -23,7 +36,7 @@
 }
 
 .btn {
-    top: 11%;
+    top: 18%;
     right: 180px;
     width: 80px;
     height: 40px;
@@ -44,12 +57,30 @@ parent {
 
 .img {
     position: relative;
-    left: 40px;
+    left: 50px;
+    margin-top: 5px;
 }
 
 .del-css {
     color: rgb(255, 255, 255);
-    font-size: large;
-    position: absolute;
-    left: 190px;
+    font-size: medium;
+    position: relative;
+    line-height: 1;
+    left: 150px;
+    margin-bottom: 1px;
+}
+.del-css1 {
+    margin-top: 1px;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    position: relative;
+    line-height: 1;
+    left: 267px;
+}
+.img1{
+    position:relative;
+    left:1200px;
+    width:25px;
+    height:30px;
+    padding-top: 0px;
 }

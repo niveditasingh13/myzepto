@@ -9,6 +9,19 @@ import { PoojaessentialComponent } from './poojaessential/poojaessential.compone
 import { PoojaItemsComponent } from './pooja-items/pooja-items.component';
 import { DiyadhoopComponent } from './diyadhoop/diyadhoop.component';
 import { FlowerComponent } from './flower/flower.component';
+import { GiftitemComponent } from './giftitem/giftitem.component';
+import { CupitemComponent } from './cupitem/cupitem.component';
+import { FrameitemComponent } from './frameitem/frameitem.component';
+import { FreshitemComponent } from './freshitem/freshitem.component';
+import { LeafyvegeyComponent } from './leafyvegey/leafyvegey.component';
+import { ComingsoonComponent } from './comingsoon/comingsoon.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
+import { ToysforkidsComponent } from './toysforkids/toysforkids.component';
+import { TeddyComponent } from './teddy/teddy.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +31,22 @@ import { FlowerComponent } from './flower/flower.component';
     PoojaessentialComponent,
     PoojaItemsComponent,
     DiyadhoopComponent,
-    FlowerComponent
+    FlowerComponent,
+    GiftitemComponent,
+    CupitemComponent,
+    FrameitemComponent,
+    FreshitemComponent,
+    LeafyvegeyComponent,
+    ComingsoonComponent,
+    LoginComponent,
+    ToysforkidsComponent,
+    TeddyComponent,
+    
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
