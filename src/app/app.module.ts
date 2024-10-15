@@ -20,6 +20,11 @@ import { FormsModule } from '@angular/forms';
 import { ToysforkidsComponent } from './toysforkids/toysforkids.component';
 import { TeddyComponent } from './teddy/teddy.component';
 
+import { BlocksComponent } from './blocks/blocks.component';
+import { ToddlerComponent } from './toddler/toddler.component';
+import { RouterModule } from '@angular/router';
+import { RemotecarComponent } from './remotecar/remotecar.component';
+
 
 
 
@@ -42,11 +47,15 @@ import { TeddyComponent } from './teddy/teddy.component';
     ToysforkidsComponent,
     TeddyComponent,
     
+    BlocksComponent,
+    ToddlerComponent,
+    RemotecarComponent,
+    
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,FormsModule
+    AppRoutingModule,FormsModule,RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

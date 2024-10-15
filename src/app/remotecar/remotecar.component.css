@@ -1,12 +1,4 @@
-.vline{
-    position: absolute;
-    left: 128px;
-    border-left: 1px solid #c6c7c8;
-    height: 1050px;
-    
-  }
-
-  .right-flex{
+.right-flex{
     display: flex;
     gap:10px;
   }

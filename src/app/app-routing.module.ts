@@ -15,6 +15,10 @@ import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { LoginComponent } from './login/login.component';
 import { ToysforkidsComponent } from './toysforkids/toysforkids.component';
 import { TeddyComponent } from './teddy/teddy.component';
+import { BlocksComponent } from './blocks/blocks.component';
+
+import { ToddlerComponent } from './toddler/toddler.component';
+import { RemotecarComponent } from './remotecar/remotecar.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -34,7 +38,11 @@ const routes: Routes = [
   {path:'comingsoon',component:ComingsoonComponent},
   {path:'login',component:LoginComponent},
   {path:'toys',component:ToysforkidsComponent},
-  {path:'teddy', component:TeddyComponent}
+  {path:'teddy', component:TeddyComponent},
+  {path:'blocks',component:BlocksComponent},
+  
+  {path:'toddler',component:ToddlerComponent},
+  {path:'remote',component:RemotecarComponent}
 ];
 
 @NgModule({
