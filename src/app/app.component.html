@@ -4,11 +4,12 @@
   <a routerLink="/home"><img class="img" src="../assets/primary-logo.svg"></a>
   <a routerLink="/login"><img class="img1" src="../assets/poojaimage/login1.jfif"  ></a>
   <i class="fa badge fa-lg" value=8 style="position: absolute; left :90%; top: 18px;">&#xf07a;</i>
-  <span class="del-css">Delivery in 10 mins,<br></span>
+  <span class="del-css">Delivery in 10 mins</span>
+  <span class="del-css"> &nbsp;HRBR layout 2nd block</span>
   
   <form class="form-inline">
     
-    <input class="inp form-control mr-sm-2" type="search" placeholder="Search for products" aria-label="Search">
+    <input id="search-inp" class="inp form-control mr-sm-2" type="search" [placeholder]="currentPlaceholder" aria-label="Search" >
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>   
   </form>
   

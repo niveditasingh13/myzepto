@@ -58,7 +58,7 @@
 .wrapper i {
     height: 50px;
     width: 50px;
-    background: rgb(118, 233, 118);
+    /* background: rgb(33,21,90);  */
     text-align: center;
     line-height: 50px;
     border-radius: 50%;
@@ -170,4 +170,7 @@
         grid-auto-columns: 100%;
 
     }
+}
+.h4{
+    padding-left: 90px;
 }

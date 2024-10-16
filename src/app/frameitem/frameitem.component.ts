@@ -9,7 +9,6 @@ import { Router } from '@angular/router';
 })
 
 export class FrameitemComponent {
-
   changeText(id:string) {
     const b = <HTMLElement>document.querySelector(id);
     b.innerHTML = 'added to cart';

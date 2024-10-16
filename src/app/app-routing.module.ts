@@ -19,6 +19,10 @@ import { BlocksComponent } from './blocks/blocks.component';
 
 import { ToddlerComponent } from './toddler/toddler.component';
 import { RemotecarComponent } from './remotecar/remotecar.component';
+import { DiwaligameComponent } from './diwaligame/diwaligame.component';
+import { SportsactivitiesComponent } from './sportsactivities/sportsactivities.component';
+import { FashionComponent } from './fashion/fashion.component';
+import { ElectronicsComponent } from './electronics/electronics.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -29,7 +33,7 @@ const routes: Routes = [
   {path:'poojaitemidol',component:PoojaItemsComponent},
   {path:'poojaitemflower',component:FlowerComponent},
   {path:'poojaitemdiya',component:DiyadhoopComponent},
-  {path:'gift',component:GiftitemComponent},
+  {path:'gift',component:CupitemComponent},
   {path:'cup',component:CupitemComponent},
   {path:'frames',component:FrameitemComponent},
   {path:'fresh',component:FreshitemComponent},
@@ -42,7 +46,11 @@ const routes: Routes = [
   {path:'blocks',component:BlocksComponent},
   
   {path:'toddler',component:ToddlerComponent},
-  {path:'remote',component:RemotecarComponent}
+  {path:'remote',component:RemotecarComponent},
+  {path:'diwali',component:DiwaligameComponent},
+  {path:'sports',component:SportsactivitiesComponent},
+  {path:'fashion',component:FashionComponent},
+  {path:'electronic',component:ElectronicsComponent}
 ];
 
 @NgModule({

@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./pooja-items.component.css']
 })
 export class PoojaItemsComponent {
-
+  changeText(id:string) {
+    const b = <HTMLElement>document.querySelector(id);
+    b.innerHTML = 'added to cart';
+    b.style.backgroundColor = '#90EE90'
+ }
 }

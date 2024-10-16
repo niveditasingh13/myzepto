@@ -3,6 +3,15 @@
 
 <div class="parent">
     <div class="left-flex">
+        <div class="card" style="width: 8rem;height: 12rem;">
+            <a routerLink = "/cup">
+             <img class="card-img-top" src="../../assets/poojaimage/cups.jfif" alt="Card image cap">
+            </a>
+             <div class="card-body">
+                 <h6 class="card-title">Cup & more</h6>
+             </div>
+         
+         </div>
         <div class="card" style="width: 8rem; height: 12rem;">
             <a routerLink = "/gift">
             <img class="card-img-top" src="../../assets/poojaimage/idol.jfif" alt="Card image cap">
@@ -12,15 +21,7 @@
 
             </div>
         </div>
-        <div class="card" style="width: 8rem;height: 12rem;">
-           <a routerLink = "/cup">
-            <img class="card-img-top" src="../../assets/poojaimage/cups.jfif" alt="Card image cap">
-           </a>
-            <div class="card-body">
-                <h6 class="card-title">Cup & more</h6>
-            </div>
         
-        </div>
         <div class="card" style="width: 8rem;height: 12rem;">
             <a routerLink = "/frames">
             <img class="card-img-top" src="../../assets/poojaimage/frames.webp" alt="Card image cap">
@@ -52,7 +53,7 @@
             <img class="card-img-top" src="../../assets/poojaimage/frame5.jfif" alt="Card image cap" width='210' height='180'>
             <div class="card-body">
                 <h6 class="card-title" style="text-align: center;">Frame 5</h6>
-                <a href="#" class="btn btn-outline-danger" style="position: relative; left:30px">add to cart</a>
+                <button class="btn btn-outline-danger" style="position: relative; left:30px" (click)="changeText('#add-frame5')" id="add-frame5">add to cart</button>
             </div>
         </div>
         <div class="card" style="width: 15rem; height: 20rem;">
@@ -67,7 +68,7 @@
             <img class="card-img-top" src="../../assets/poojaimage/frame7.jfif" alt="Card image cap" width='210' height='180'>
             <div class="card-body">
                 <h6 class="card-title" style="text-align: center;">Frame 7</h6>
-                <a href="#" class="btn btn-outline-danger" style="position: relative; left:30px">add to cart</a>
+                <button class="btn btn-outline-danger" style="position: relative; left:30px" (click)="changeText('#add-frame7')" id="add-frame7">add to cart</button>
 
             </div>
         </div>

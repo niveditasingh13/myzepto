@@ -24,6 +24,10 @@ import { BlocksComponent } from './blocks/blocks.component';
 import { ToddlerComponent } from './toddler/toddler.component';
 import { RouterModule } from '@angular/router';
 import { RemotecarComponent } from './remotecar/remotecar.component';
+import { DiwaligameComponent } from './diwaligame/diwaligame.component';
+import { SportsactivitiesComponent } from './sportsactivities/sportsactivities.component';
+import { FashionComponent } from './fashion/fashion.component';
+import { ElectronicsComponent } from './electronics/electronics.component';
 
 
 
@@ -50,6 +54,10 @@ import { RemotecarComponent } from './remotecar/remotecar.component';
     BlocksComponent,
     ToddlerComponent,
     RemotecarComponent,
+    DiwaligameComponent,
+    SportsactivitiesComponent,
+    FashionComponent,
+    ElectronicsComponent,
     
     
   ],
